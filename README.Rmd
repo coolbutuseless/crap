@@ -31,3 +31,11 @@ The goal of `crap` is to set up some tutorial stuff.
     * commit, push and wait for travis to complete a full build (just to be sure).
         * Badge on github should change from `Build:Unknown` to `Build:Passing`
 * `usethis::use_coverage()` **Must be done after TravisCI is added**
+    * Need to add a snippet to `.travis.yml`
+    
+```
+after_success:
+    - Rscript -e 'covr::codecov()'
+```
+    
+    
