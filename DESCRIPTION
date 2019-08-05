@@ -1,0 +1,13 @@
+Package: crap
+Type: Package
+Title: Crap
+Version: 0.1.0
+Author: crap
+Maintainer: crap <crap@crap.crap>
+Description: Crap.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.1.0)
+RoxygenNote: 6.1.1
